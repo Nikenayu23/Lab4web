@@ -863,13 +863,13 @@ Membuat Model Kategori
 
 Buat file model baru di `app/Models` dengan nama `KategoriModel.php`:
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/A.png)
 
 Memodifikasi Model Artikel
 
 Modifikasi `ArtikelModel.php` untuk mendefinisikan relasi dengan `KategoriModel`:
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/B.png)
 
 Menambahkan method `getArtikelDenganKategori()` untuk mengambil data artikel beserta
 nama kategorinya menggunakan join.
@@ -878,26 +878,141 @@ Memodifikasi Controller Artikel
 
 Modifikasi `Artikel.php` untuk menggunakan model baru dan menampilkan data relasi:
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/C.png)
 
 Memodifikasi View
 
 Buka folder view/artikel sesuaikan masing-masing view.
 index.php
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/D.png)
 
 admin_index.php
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/E.png)
 
 form_add.php
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/F.png)
 
 form_edit.php
 
-![App Screenshot](./image/.png)
+![App Screenshot](./lab7web/image/praktikum9/G.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/H.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/I.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/J.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/K.png)
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/L.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/M.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/N.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/O.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/P.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/Q.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/R.png)
+
+form_edit.php
+
+![App Screenshot](./lab7web/image/praktikum9/S.png)
 
 ## PRAKTIKUM 10
 
+Langkah-langkah Praktikum
+Persiapan
+Buka Kembali project sebelumnya, kemudian kita tambahkan Pustaka yang dibutuhkan
+pada project tersebut.
+Menambahkan Pustaka jQuery.
+Kita akan menggunakan pustaka jQuery untuk mempermudah proses AJAX. Download
+pustaka jQuery versi terbaru dari https://jquery.com dan ekstrak filenya.
+Salin file jquery-3.6.0.min.js ke folder public/assets/js.
+Membuat Model.
+Pada modul sebelumnya sudah dibuat ArtikelModel, pada modul ini kita akan
+memanfaatkan model tersebut agar dapat diakses melalui AJAX.
+Membuat AJAX Controller
+
+
+![App Screenshot](./lab7web/image/praktikum10/A.png)
+
+Membuat View
+
+![App Screenshot](./lab7web/image/praktikum10/B.png)
+![App Screenshot](./lab7web/image/praktikum10/C.png)
+![App Screenshot](./lab7web/image/praktikum10/D.png)
+![App Screenshot](./lab7web/image/praktikum10/E.png)
+![App Screenshot](./lab7web/image/praktikum10/F.png)
+![App Screenshot](./lab7web/image/praktikum10/G.png)
+![App Screenshot](./lab7web/image/praktikum10/H.png)
+
+## PRAKTIKUM 11
+
+Langkah-langkah Praktikum
+1. Persiapan
+* Pastikan MySQL Server sudah berjalan.
+* Buka database `lab_ci4`.
+* Pastikan tabel `artikel` dan `kategori` sudah ada dan terisi data.
+* Pastikan library jQuery sudah terpasang atau dapat diakses melalui CDN.
+2. Modifikasi Controller Artikel
+Ubah method `admin_index()` di `Artikel.php` untuk mengembalikan data dalam format
+JSON jika request adalah AJAX. (Sama seperti modul sebelumnya)
+
+![App Screenshot](./lab7web/image/praktikum11/A.png)
+![App Screenshot](./lab7web/image/praktikum11/B.png)
+![App Screenshot](./lab7web/image/praktikum11/C.png)
+![App Screenshot](./lab7web/image/praktikum11/D.png)
+![App Screenshot](./lab7web/image/praktikum11/E.png)
+![App Screenshot](./lab7web/image/praktikum11/F.png)
+![App Screenshot](./lab7web/image/praktikum11/G.png)
+![App Screenshot](./lab7web/image/praktikum11/H.png)
+
+## PRAKTIKUM 12
+
+Langkah-langkah Praktikum
+Persiapan
+Periapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang dapat digunakan untuk
+keperluan tersebut. Salah satunya adalah Postman. Postman – Merupakan aplikasi yang berfungsi
+sebagai REST Client, digunakan untuk testing REST API. Unduh apliasi Postman dari tautan berikut:
+https://www.postman.com/downloads/
+Membuat Model.
+Pada modul sebelumnya sudah dibuat ArtikelModel, pada modul ini kita akan memanfaatkan model
+tersebut agar dapat diakses melalui API.
+Membuat REST Controller
+Pada tahap ini, kita akan membuat file REST Controller yang berisi fungsi untuk menampilkan,
+menambah, mengubah dan menghapus data. Masuklah ke direktori app\Controllers dan buatlah file
+baru bernama Post.php. Kemudian, salin kode di bawah ini ke dalam file tersebut:
+
+![App Screenshot](./lab7web/image/praktikum12/A.png)
+
+![App Screenshot](./lab7web/image/praktikum12/B.png)
+
+![App Screenshot](./lab7web/image/praktikum12/C.png)
