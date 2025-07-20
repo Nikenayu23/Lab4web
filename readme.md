@@ -1016,3 +1016,17 @@ baru bernama Post.php. Kemudian, salin kode di bawah ini ke dalam file tersebut:
 ![App Screenshot](./lab7web/image/praktikum12/B.png)
 
 ![App Screenshot](./lab7web/image/praktikum12/C.png)
+
+![App Screenshot](./lab7web/image/praktikum12/D.png)
+
+![App Screenshot](./lab7web/image/praktikum12/E.png)
+
+![App Screenshot](./lab7web/image/praktikum12/F.png)
+
+![App Screenshot](./lab7web/image/praktikum12/G.png)
+
+![App Screenshot](./lab7web/image/praktikum12/H.png)
+
+![App Screenshot](./lab7web/image/praktikum12/I.png)
+
+![App Screenshot](./lab7web/image/praktikum12/J.png)
